@@ -1,0 +1,84 @@
+/* Стили для вашего сайта суши */
+body {
+   font-family: Arial, sans-serif;
+}
+
+main {
+   max-width: 60%;
+   margin: 0 auto;
+}
+
+header {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+}
+
+.menu {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 20px;
+}
+
+.item {
+   border: 1px solid #ccc;
+   margin: 10px;
+   padding: 10px;
+   text-align: center;
+}
+
+.item img {
+   width: 200px;
+   height: 200px;
+}
+
+#cart {
+   background-color: #6a6666;
+   border: 1px solid #171717;
+   padding: 10px;
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 250px;
+}
+
+#cart h2 {
+   text-align: center;
+}
+
+#cart-items {
+   list-style: none;
+   padding: 0;
+}
+
+#cart-total {
+   text-align: center;
+   margin-top: 10px;
+}
+
+button.add-to-cart {
+   background-color: #333;
+   color: #fff;
+   border: none;
+   padding: 5px 10px;
+   cursor: pointer;
+}
+
+button#checkout {
+   background-color: #333;
+   color: #8f8888;
+   border: none;
+   padding: 10px 20px;
+   width: 100%;
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+footer {
+   background-color: #333;
+   color: #fff;
+   text-align: center;
+   padding: 10px;
+}
